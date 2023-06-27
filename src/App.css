@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia;
+}
+.Wrap{
+  width: 95%;
+  background-color: white;
+  box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377), 3px 3px 7px rgba(94, 104, 121, 0.377);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Details{
+  width: 100%;
+  height: 40%;
+  background-color: teal;
+}
+.Cop-name{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+h2{
+  color: red;
+}
+.Info{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Cop-details{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.Cop-details input{
+  width:300px;
+  height: 30px;
+  margin: 5px;
+  border-color: gray;
+  border: 1px solid gray;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+}
+.Shopping-cart{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+.Shopping-cart input{
+  width:300px;
+  height: 30px;
+  margin: 5px;
+  border-color: gray;
+  border: 1px solid gray;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+}
+.Additems{
+  width: 310px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background-color: turquoise;
+  border: 1px solid turquoise;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Hero{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+table{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+tr{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 15px;
+  margin-top: 20px;
+} 
+ td{
+  width: 220px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}  
+.Week{
+  background-color: orange;
+}
+.Id{
+  background-color: blue;
+}
+.Name{
+  background-color: red;
+  border-right: 1px solid gray;
+}
+.Price{
+  background-color: red;
+}
+.Description{
+  background-color: yellow;
+}
+.Time{
+  background-color: green;
+}
+.Summary{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px;
+}
+.Total-amount{
+  width: 220px;
+  height: 15vh;
+  border: 1px solid gray;
+  border-radius:  5px;
+ margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Total{
+  width: 90%;
+  height: 50%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Btn-primary{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Btn-primary-checkout{
+  width: 100px;
+  height: 30px;
+  background-color: turquoise;
+  border: 1px solid turquoise;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
