@@ -47,9 +47,8 @@ function App() {
          let day = weekday[d.getDay()];
 
 
-
   return (
-      <div className="App">
+        <div className="App">
                 <div className='Wrap'>
                         <div className='Details'>
                                 <div className='Cop-name'><h2>R E D.S O L U T I O N S. L I M I T E D</h2></div>
@@ -58,7 +57,7 @@ function App() {
                                                 <div><input placeholder="Reporting Personnel"/></div>
                                                 <div><input placeholder="Department"/></div>
                                                 <div><input  type="date" placeholder="Report Date"/></div>
-                                                <div><input placeholder="total sales"/>$</div>
+                                                <div><input placeholder="Total Sales"/>$</div>
                                         </div>
                                         <div className='Shopping-cart'>
                                                 <div><input placeholder="Item name"  value={itemnames} onChange={(e) => {
@@ -73,7 +72,7 @@ function App() {
                                                 <div className="Additems"><button onClick={addItem}>+ Add Item</button></div>
                                         </div>
                                 </div>
-                                <div><h3>Product Sales Report</h3></div>
+                                <div><h3>Product Sales Inventory</h3></div>
                         </div>
 
                         <div className='Hero'>

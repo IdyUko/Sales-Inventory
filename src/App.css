@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .App{
   width: 100%;
@@ -82,7 +83,7 @@ h2{
   outline: 0;
 }
 .Additems{
-  width: 310px;
+  width: 300px;
   height: 40px;
   margin-top: 5px;
   margin-right: 5px;
@@ -108,7 +109,6 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: yellowgreen; */
 }
 table{
   width: 100%;
@@ -127,13 +127,25 @@ tr{
   margin-top: 20px;
 } 
  td{
-  width: 220px;
+  width: 240px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 17px;
-}  
+} 
+ /* @media screen and (max-width: 1024px) {
+td{
+    width: 160px;
+    height: 30px
+  }
+}
+@media screen and (max-width: 768px){
+  td{
+    width: 120px;
+    height: 30px
+  }
+} */
 .Week{
   background-color: orange;
 }
